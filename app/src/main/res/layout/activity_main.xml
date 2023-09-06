@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Generar Vector" />
+
+    <TextView
+        android:id="@+id/vectorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/generateButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Vector: " />
+
+    <TextView
+        android:id="@+id/minTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vectorTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Mínimo: " />
+
+    <TextView
+        android:id="@+id/maxTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/minTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Máximo: " />
+
+    <TextView
+        android:id="@+id/averageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maxTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Promedio: " />
+
+</RelativeLayout>
